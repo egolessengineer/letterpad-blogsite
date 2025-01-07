@@ -44,4 +44,6 @@ type Awaited<T> = T extends null | undefined
     : never // the argument to `then` was not callable
   : T; // non-object or non-thenable
 
+  // Added apollo server configuration
+
 export type ResolverContext = Awaited<ReturnType<typeof context>>;

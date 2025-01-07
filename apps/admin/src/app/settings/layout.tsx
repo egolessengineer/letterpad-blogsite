@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import React from "react";
+// import { getImageAttrs } from "@/graphql/utils/imageAttributs";
 
 import { TwoColumnLayout } from "@/components/layouts/twoColumn";
 
